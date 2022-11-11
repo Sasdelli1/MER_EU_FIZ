@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="186C5BD6-D799-4BAF-F362-AEC02A09F81A" name="USUARIOS">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:53:37 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="5B60E5FC-B765-5127-DA1A-C8383C3DFE1E">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:54:50 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="474BBF00-407B-858F-21B8-8A4ED469E328">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:55:10 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>291E0E9A-8D16-0FEA-9C56-9F6BF595E4B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A2F2C16C-500B-E9F6-A3A4-E4EC1BA4071A">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:55:25 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E655CAF5-1155-1623-B2D2-4CBAE42467B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="743A0C57-0FB7-BF2A-B0DB-315ED21D48D4">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:55:37 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>305F4250-C2C7-F8FE-D785-74A2B920BF4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="4E7DDE33-1AE6-72A5-E7DE-0F881DBBB0B1">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:55:52 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B7B1FC9-CA70-80FF-BF8F-9482EA22296D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F727A9DF-13E1-B4DA-3633-C88664ED7BB6" name="USUÁRIOS_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:54:50 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B60E5FC-B765-5127-DA1A-C8383C3DFE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

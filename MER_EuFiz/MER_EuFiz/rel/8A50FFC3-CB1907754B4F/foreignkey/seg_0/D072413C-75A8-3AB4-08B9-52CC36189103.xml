@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D072413C-75A8-3AB4-08B9-52CC36189103" containerWithKeyObject="F7543A3E-D83C-5609-4AC8-6BA899127499" localFKIndex="5780E0CA-741E-824E-3D10-8B94EC12E6D9" name="CALENDÁRIO_LEMBRETES_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:15:46 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<referredTableLongName>LEMBRETES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE242CFE-34B0-0693-9B24-2FB5DB785294</referredTableID>
+<keyObject>ED8DE325-9F88-37C0-193A-6F0CDF0B87FE</keyObject>
+<referredKeyID>ED8DE325-9F88-37C0-193A-6F0CDF0B87FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lembrete</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

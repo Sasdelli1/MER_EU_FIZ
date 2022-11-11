@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7543A3E-D83C-5609-4AC8-6BA899127499" name="CALENDÁRIO">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:01:39 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_calendario" id="0F9FFA47-FD22-C7B7-3163-8AC822FD2E56">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:02:34 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_marcada" id="C9BAC095-A3DC-E566-C36E-3AFAB497668D">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:03:02 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="17DB49C3-6EF3-D235-B90A-6855B2B40874">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:03:15 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>E0790B68-DDBC-5C39-5927-E43F6504569F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEMBRETES_id_lembrete" id="EA330A20-24FD-C4BB-BBC4-11A63B3E3C3A">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:15:46 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D072413C-75A8-3AB4-08B9-52CC36189103" referredColumn="C73CA699-2A4E-F3B6-9A87-BFD3D8C88293"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52FD4011-CAA6-D5BE-3A8C-4E06410A8DFB" name="CALENDÁRIO_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:02:34 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F9FFA47-FD22-C7B7-3163-8AC822FD2E56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5780E0CA-741E-824E-3D10-8B94EC12E6D9" name="CALENDÁRIO_LEMBRETES_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:15:46 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA330A20-24FD-C4BB-BBC4-11A63B3E3C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

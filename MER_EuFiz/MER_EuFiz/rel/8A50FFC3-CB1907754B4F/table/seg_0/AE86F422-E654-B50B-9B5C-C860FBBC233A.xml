@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE86F422-E654-B50B-9B5C-C860FBBC233A" name="LOCAIS">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:44:35 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_local" id="D887160E-71FF-D146-C928-C8788E465037">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:48:08 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_local" id="44917032-111B-E25B-EE1B-3D695675FEEE">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:50:02 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="8F165B01-3B69-35E1-E5F3-034F2F16C262">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:50:55 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="AD866F2F-2CCB-DE1A-DABF-5CB828B05232">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:51:56 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>E0790B68-DDBC-5C39-5927-E43F6504569F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="E07B74CC-1A99-D317-3C09-E12664D00923">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:51:56 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3D8ECDC-719B-3702-3100-4D6337CCF13D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="6B87512E-D9CB-16FA-54B6-3B7540173326">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:51:56 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A3D8ECDC-719B-3702-3100-4D6337CCF13D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="2D6E9FDC-1F6A-79A2-9598-C54B94498D50">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:52:47 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BD60DBDF-4C97-3E2A-5353-491FD0DBFE82</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="265DCDF3-EE58-A7E2-69C7-C85DF2E84269" name="Locais_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:48:08 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D887160E-71FF-D146-C928-C8788E465037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE242CFE-34B0-0693-9B24-2FB5DB785294" name="LEMBRETES">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:57:28 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lembrete" id="C73CA699-2A4E-F3B6-9A87-BFD3D8C88293">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:58:12 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_lembrete" id="6044EE2F-E370-9A4F-D670-2166427239AD">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:59:04 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23A41ABC-9BBB-D035-6CBB-7B1C983B41AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_lembrete" id="4E5306AF-3316-20F0-8469-916941A9DBD3">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:59:31 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>5FDEB161-68E9-E7C2-0EF2-BAAF23F6C0D4</domain>
+<defaultValue>GetDate()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="102619B8-27A4-20DA-ADEF-69BCC959C59F">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:59:46 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>E0790B68-DDBC-5C39-5927-E43F6504569F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="D6E616C6-11F4-84E7-CC5A-B1FE4A00D24C">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:00:24 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FB1AEBFD-A947-3A81-5EF2-FF11C1D4141E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUÁRIOS_id_usuario" id="2ED6437A-9971-EE71-0D27-8D9C5D83BE24">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:09:17 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<defaultValue>NewId()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A04F1ABC-C606-D4E3-75ED-7F9999F6A495" referredColumn="5B60E5FC-B765-5127-DA1A-C8383C3DFE1E"/>
+</associations>
+</Column>
+<Column name="LOCAIS_id_local" id="E020F3AF-3420-5355-5FC1-E01962967630">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:10:35 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>09EABA89-6690-C6A1-5A20-BC4A80D19962</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="163623DD-C853-B206-C2D9-5FDE99598335" referredColumn="D887160E-71FF-D146-C928-C8788E465037"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED8DE325-9F88-37C0-193A-6F0CDF0B87FE" name="LEMBRETES_PK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:58:12 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C73CA699-2A4E-F3B6-9A87-BFD3D8C88293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DFA79BB-09FC-D9D2-4B70-22DA40E08AA4" name="LEMBRETES_USUÁRIOS_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:09:17 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ED6437A-9971-EE71-0D27-8D9C5D83BE24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01AE593A-90C4-1ADA-0F17-63348E081EF1" name="LEMBRETES_LOCAIS_FK">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 23:10:35 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E020F3AF-3420-5355-5FC1-E01962967630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

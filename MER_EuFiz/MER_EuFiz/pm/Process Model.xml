@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1C4FB6BB-936C-E8D3-886D-090DF8ED5710">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:10:04 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
