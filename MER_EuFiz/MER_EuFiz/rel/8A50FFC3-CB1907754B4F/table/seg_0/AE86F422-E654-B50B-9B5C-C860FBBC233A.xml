@@ -40,16 +40,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="AD866F2F-2CCB-DE1A-DABF-5CB828B05232">
-<createdBy>gabriel.fsasdelli</createdBy>
-<createdTime>2022-11-10 22:51:56 UTC</createdTime>
-<ownerDesignName>MER_EuFiz</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<domain>E0790B68-DDBC-5C39-5927-E43F6504569F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="longitude" id="E07B74CC-1A99-D317-3C09-E12664D00923">
 <createdBy>gabriel.fsasdelli</createdBy>
 <createdTime>2022-11-10 22:51:56 UTC</createdTime>
@@ -67,16 +57,6 @@
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>A3D8ECDC-719B-3702-3100-4D6337CCF13D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="quantidade" id="2D6E9FDC-1F6A-79A2-9598-C54B94498D50">
-<createdBy>gabriel.fsasdelli</createdBy>
-<createdTime>2022-11-10 22:52:47 UTC</createdTime>
-<ownerDesignName>MER_EuFiz</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>BD60DBDF-4C97-3E2A-5353-491FD0DBFE82</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

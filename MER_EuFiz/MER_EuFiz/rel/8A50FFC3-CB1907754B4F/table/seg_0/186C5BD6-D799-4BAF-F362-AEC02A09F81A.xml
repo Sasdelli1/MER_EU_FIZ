@@ -19,6 +19,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="nome_completo" id="C7B862C4-CC64-7682-0EE9-F8A5BE95C2F3">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-11 23:09:33 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="usuario" id="474BBF00-407B-858F-21B8-8A4ED469E328">
 <createdBy>gabriel.fsasdelli</createdBy>
 <createdTime>2022-11-10 22:55:10 UTC</createdTime>
@@ -29,23 +40,24 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="telefone" id="80F7067E-D7B8-8291-6E62-7A9D55F650EA">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-11 23:50:30 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>97C008A8-2E57-2D5F-DCAA-60924652BFA1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="email" id="A2F2C16C-500B-E9F6-A3A4-E4EC1BA4071A">
 <createdBy>gabriel.fsasdelli</createdBy>
 <createdTime>2022-11-10 22:55:25 UTC</createdTime>
 <ownerDesignName>MER_EuFiz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E655CAF5-1155-1623-B2D2-4CBAE42467B9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="senha" id="743A0C57-0FB7-BF2A-B0DB-315ED21D48D4">
-<createdBy>gabriel.fsasdelli</createdBy>
-<createdTime>2022-11-10 22:55:37 UTC</createdTime>
-<ownerDesignName>MER_EuFiz</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>305F4250-C2C7-F8FE-D785-74A2B920BF4E</domain>
+<domain>8DBB3D0C-48EE-39AB-297E-D4AE41C6D7E4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -56,6 +68,16 @@
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>0B7B1FC9-CA70-80FF-BF8F-9482EA22296D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="743A0C57-0FB7-BF2A-B0DB-315ED21D48D4">
+<createdBy>gabriel.fsasdelli</createdBy>
+<createdTime>2022-11-10 22:55:37 UTC</createdTime>
+<ownerDesignName>MER_EuFiz</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>305F4250-C2C7-F8FE-D785-74A2B920BF4E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
